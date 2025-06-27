@@ -1,0 +1,14 @@
+for linux first use command 
+sudo apt install ufw 
+sudo ufw enable
+sudo ufw allow 22/tcp  (t0 allow 22 port)
+after running all the commands we will get this result 
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere                  
+[ 2] 80/tcp                     ALLOW IN    Anywhere                  
+[ 3] 21/tcp                     DENY IN     Anywhere                  
+[ 4] 22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 5] 80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 6] 21/tcp (v6)                DENY IN     Anywhere (v6)             
